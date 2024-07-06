@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>omnibusofficial</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #000;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: #333;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        h1, h2 {
+            color: #4CAF50;
+            text-align: center;
+        }
+        .content {
+            padding: 10px;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #4CAF50;
+        }
+        .content h3 {
+            margin-top: 0;
+        }
+        .content p {
+            margin-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 1em;
+            background-color: #4CAF50;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to omnibusofficial</h1>
+    </header>
+    <div class="container">
+        <h2>Featured Content</h2>
+        <div class="content">
+            <h3>Feature 1</h3>
+            <p>Description of Feature 1.</p>
+        </div>
+        <div class="content">
+            <h3>Feature 2</h3>
+            <p>Description of Feature 2.</p>
+        </div>
+        <!-- Add more content as needed -->
+    </div>
+    <footer>
+        <p>&copy; 2024 omnibusofficial</p>
+    </footer>
+</body>
+</html>
